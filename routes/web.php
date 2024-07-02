@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\UserController;
@@ -20,3 +21,9 @@ use App\Http\Controllers\UserController;
 // });
 route::get('/', [HomeController::class,'index'])->name('index');
 route::get('/login',[UserController::class,'login'])->name('login');
+route::post('/login',[UserController::class,'postLogin']);
+route::get('/register',[UserController::class,'register'])->name('register');
+route::post('/register',[UserController::class,'postRegister']);
+route::get('/logout',[UserController::class,'logout'])->name('logout');
+
+

@@ -129,12 +129,23 @@
             <li class="nav-item">
               <a class="nav-link" href="shop.html">Shop</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="{{ route('login') }}">Login</a>
+            <li class="nav-item dropdown">
+              @if (Auth::check())
+              <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                {{ Auth::user()->name }} <i class="ti-angle-down ml-1"></i>
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="{{ route('logout') }}">Đăng xuất</a>
+                <a class="dropdown-item" href="about-us.html">About Us</a>
+              </div>
+              @else
+              <a class="nav-link" href="{{ route('login') }}" role="button"  aria-haspopup="true"
+              aria-expanded="false"> Login </a>
+              @endif
             </li>
           </ul>
         </div>
-
         <div class="order-2 order-lg-3 d-flex align-items-center">
           <select class="m-2 border-0 bg-transparent" id="select-language">
             <option id="en" value="" selected>En</option>

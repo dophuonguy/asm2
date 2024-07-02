@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Login and Register Form HTML Template - developed by 'ceosdesigns' - sold exclusively on 'themeforest.net'">
 	<meta name="author" content="ceosdesigns.sk">
-    <title>Đăng nhập</title>
-	<link href="{{asset("lg-assets")}}/favicon.png" rel="icon">
+    <title>register</title>
+	<link href="images/favicon.png" rel="icon">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;display=swap" rel="stylesheet">
 	<link href="{{asset("lg-assets")}}/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" rel="stylesheet">
 	<link href="{{asset("lg-assets")}}/css/bootstrap.min.css" rel="stylesheet">
 	<link href="{{asset("lg-assets")}}/css/styles.css" rel="stylesheet">
 </head>
 <body>
+	<!-- // Preloader -->
 	<div id="nm-preloader" class="nm-aic nm-vh-md-100">
 		<div class="nm-ripple">
 			<div></div>
@@ -28,32 +29,26 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-6 offset-xl-3 nm-st nm-st-md">
-					@if ($message = Session::get('error'))
-
-						<div class="alert alert-danger alert-block">
-
-							<button type="button" class="close" data-dismiss="alert">×</button>	
-
-								<strong>{{ $message }}</strong>
-
-						</div>
-
-					@endif
-					<form method="POST">
+					<form action="" method="POST">
 						@csrf
 						<div class="nm-mb-2 nm-mb-md-2">
-							<h2>Log In to <a class="heading" href="../../index-2.html" aria-label="Nimoy">NIMOY</a></h2>
-							<p>New Here? <a class="nm-fs-1 nm-fw-bd underline" href="{{ route('register') }}">Create an account</a></p>
+							<h2>Create your free account now!</h2>
+							<p>Already have an account? <a class="nm-fs-1 nm-fw-bd underline" href="{{ route('login') }}">Log In</a></p>
 						</div>
 						
 						<div class="input-group nm-gp">
 							<span class="nm-gp-pp"><i class="fas fa-user"></i></span>
-							<input type="text" class="form-control" id="inputUsername" tabindex="1" placeholder="Username" name="name" required>
+							<input type="text" class="form-control" id="inputUsername" tabindex="1" placeholder="Username" name="name" required >
+						</div>
+
+						<div class="input-group nm-gp">
+							<span class="nm-gp-pp"><i class="fas fa-envelope-open"></i></span>
+							<input type="email" class="form-control" id="inputEmail" tabindex="2" placeholder="Email" name="email" required >
 						</div>
 						
 						<div class="input-group nm-gp">
 							<span class="nm-gp-pp"><i class="fas fa-lock"></i></span>
-							<input type="password" class="form-control" id="inputPassword" tabindex="2" placeholder="Password" name="password" required>
+							<input type="password" class="form-control" id="inputPassword" tabindex="3" placeholder="Password" name="password" required>
 						</div>
 
 						<div class="row nm-aic nm-mb-2">
@@ -72,13 +67,9 @@
 
 						<div class="row nm-row-ct nm-tp-3">
 							<div class="form-group form-check">
-								<input type="checkbox" class="form-check-input" id="rememberMe">
-								<label class="form-check-label nm-check" for="rememberMe">Keep me logged in</label>
+								<input type="checkbox" class="form-check-input" id="termsAndConditions">
+								<label class="form-check-label nm-check" for="termsAndConditions">I agree to the <a class="nm-fs-1 nm-fw-bd" href="#">Terms & Conditions</a></label>
 							</div>
-						</div>
-
-						<div class="row nm-row-ct">
-							<a class="nm-fs-2 nm-fw-bd" href="recover.html">Forgot Password?</a>
 						</div>
 
 						<div class="row nm-row-ct nm-tp-5">
@@ -90,19 +81,13 @@
 				</div>
 			</div>
 		</div>
+		<!-- Form Side // -->
 
 	</main>
-	
-	<!-- // Vendor JS files -->
 	<script src="{{asset("lg-assets")}}/js/jquery-3.6.0.min.js"></script>
 	<script src="{{asset("lg-assets")}}/js/bootstrap.bundle.min.js"></script>
-	<!-- Vendor JS files // -->
 
-	<!-- Template JS files // -->
 	<script src="{{asset("lg-assets")}}/js/script.js"></script>
-	<!-- Template JS files // -->
-
-
 	<script>
 		let tmpLocation = window.location.href;
 		let tmpEndLocation = tmpLocation.split("../../index.html");
@@ -126,6 +111,4 @@
 		};
 	</script>
 </body>
-
-<!-- Mirrored from nimoy.ceosdesigns.sk/template/v03/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jun 2024 07:41:16 GMT -->
 </html>
