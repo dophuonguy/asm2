@@ -6,6 +6,7 @@ use Auth;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Hash;
+use Mail;
 class UserController extends Controller
 {
     public function login(){
@@ -21,7 +22,7 @@ class UserController extends Controller
         try {
             User::create($req->all());
         } catch (\Throwable $th) {
-            dd($th);
+            
         }
         return redirect()->route('login');
     }
@@ -39,5 +40,9 @@ class UserController extends Controller
         return redirect()->back();
 
         
+    }
+
+    public function forget(){
+        return view('login.forget');
     }
 }
