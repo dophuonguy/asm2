@@ -6,7 +6,6 @@ use Auth;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Hash;
-use Mail;
 class UserController extends Controller
 {
     public function login(){
@@ -44,5 +43,8 @@ class UserController extends Controller
 
     public function forget(){
         return view('login.forget');
+    }
+    public function postFoget(){
+        
     }
 }

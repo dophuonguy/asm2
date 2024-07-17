@@ -1,6 +1,16 @@
-@extends('home.index')
-@section('contact')
-<div class="header text-center">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  @include('home.layouts.head')
+
+</head>
+
+<body>
+
+  @include('home.layouts.header')
+
+  <div class="header text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-9 mx-auto">
@@ -93,6 +103,15 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
+  @include('home.layouts.footer')
+
+  @include('home.layouts.js')
+</body>
+</html>
+
+
+
+
+ 
   
-@endsection

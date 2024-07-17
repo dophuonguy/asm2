@@ -11,10 +11,6 @@
               Trang chủ
             </a>
           </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Tin tức trong ngày</a>
-          </li>
           
           <li class="nav-item dropdown">
             <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -52,10 +48,6 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="shop.html">Dự báo thời tiết</a>
-          </li>
-
-          <li class="nav-item">
             <a class="nav-link" href="{{ route('contact') }}">Phản hồi</a>
           </li>
 
@@ -71,7 +63,7 @@
             </div>
             @else
             <a class="nav-link" href="{{ route('login') }}" role="button"  aria-haspopup="true"
-            aria-expanded="false"> Login </a>
+            aria-expanded="false"> Đăng nhập </a>
             @endif
           </li>
         </ul>

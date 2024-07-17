@@ -10,7 +10,7 @@
 <!-- theme meta -->
 <meta name="theme-name" content="reader" />
 
-<!-- {{asset("assets")}}/plugins -->
+
 <link rel="stylesheet" href="{{asset("assets")}}/plugins/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="{{asset("assets")}}/plugins/themify-icons/themify-icons.css">
 <link rel="stylesheet" href="{{asset("assets")}}/plugins/slick/slick.css">

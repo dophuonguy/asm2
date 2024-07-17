@@ -13,7 +13,7 @@
     <form method="POST">
         @csrf
                     <div class="nm-mb-2 nm-mb-md-2">
-                        <h2>Đăng nhập đến <a class="heading" href="../../index-2.html" aria-label="Nimoy">READER</a></h2>
+                        <h2>Đăng nhập đến <a class="heading" href="{{ route('index') }}" aria-label="Nimoy">READER</a></h2>
                         <p>Tài khoản mới ? <a class="nm-fs-1 nm-fw-bd underline" href="{{ route('register') }}">Thêm mới tài khoản</a></p>
                     </div>
                     
