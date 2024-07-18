@@ -78,15 +78,19 @@
               <a class="dropdown-item" href="{{ route('profile') }}">Thông tin cá nhân</a>
             </div>
             @else
-            <a class="nav-link" href="{{ route('login') }}" role="button"  aria-haspopup="true"
-            aria-expanded="false"> Đăng nhập </a>
+            <a class="nav-link" data-toggle="dropdown" href="#" style="">
+              <i class="fa-solid fa-user fa-xl"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="{{ route('login') }}">Đăng nhập</a>
+              <a class="dropdown-item" href="{{ route('register') }}">Đăng ký</a>
+            </div>
             @endif
           </li>
         </ul>
         <ul class="navbar-nav mx-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link" href="{{ route('register') }}" role="button"  aria-haspopup="true"
-            aria-expanded="false"> Đăng kí </a>
+
           </li>
         </ul>
       </div>

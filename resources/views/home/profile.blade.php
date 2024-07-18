@@ -102,7 +102,7 @@
 				<article class="card mb-4">
 					
 					<div class="post-slider">
-						<img src="images/post/post-7.jpg" class="card-img-top" alt="post-thumb">
+						<img src="{{asset("assets")}}/images/post/post-7.jpg" class="card-img-top" alt="post-thumb">
 					</div>
 					
 					<div class="card-body">
@@ -110,7 +110,7 @@
 						<ul class="card-meta list-inline">
 							<li class="list-inline-item">
 								<a href="author-single.html" class="card-meta-author">
-									<img src="images/john-doe.jpg">
+									<img src="{{asset("assets")}}/images/john-doe.jpg">
 									<span>Charls Xaviar</span>
 								</a>
 							</li>
@@ -137,14 +137,14 @@
 			<div class="col-lg-8 mx-auto">
 				<article class="card mb-4">
 					<div class="post-slider">
-						<img src="images/post/post-1.jpg" class="card-img-top" alt="post-thumb">
+						<img src="{{asset("assets")}}/images/post/post-1.jpg" class="card-img-top" alt="post-thumb">
 					</div>
 					<div class="card-body">
 						<h3 class="mb-3"><a class="post-title" href="post/post-1/">Use apples to give your bakes caramel and a moist texture</a></h3>
 						<ul class="card-meta list-inline">
 							<li class="list-inline-item">
 								<a href="author-single.html" class="card-meta-author">
-									<img src="images/john-doe.jpg">
+									<img src="{{asset("assets")}}/images/john-doe.jpg">
 									<span>Charls Xaviar</span>
 								</a>
 							</li>
