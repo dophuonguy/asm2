@@ -3,7 +3,7 @@
 
         <div class="alert alert-danger alert-block">
 
-            <button type="button" class="close" data-dismiss="alert">×</button>	
+            <button type="button" class="close" data-dismiss="alert">sai tên đăng nhập hoặc mật khẩu</button>	
 
                 <strong>{{ $message }}</strong>
 

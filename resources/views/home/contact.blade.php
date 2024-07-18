@@ -3,12 +3,14 @@
 
 <head>
   @include('home.layouts.head')
-
+  <title>Phản hồi</title>
 </head>
 
 <body>
-
-  @include('home.layouts.header')
+  
+  <header class="navigation fixed-top">
+    @include('home.layouts.header')
+  </header>
 
   <div class="header text-center">
     <div class="container">

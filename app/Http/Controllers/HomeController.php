@@ -12,5 +12,10 @@ class HomeController extends Controller
     public function contact(){
         return view('home.contact');
     }
-
+    public function details(){
+        return view('home.post-details');
+    }
+    public function profile(){
+        return view('home.profile');
+    }
 }

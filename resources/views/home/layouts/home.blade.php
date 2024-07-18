@@ -4,14 +4,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-5">
-          <h2 class="h5 section-title">Editors Pick</h2>
+          <h2 class="h5 section-title">Tin Mới nhất</h2>
           <article class="card">
             <div class="post-slider slider-sm">
               <img src="{{asset("assets")}}/images/post/post-1.jpg" class="card-img-top" alt="post-thumb">
             </div>
 
             <div class="card-body">
-              <h3 class="h4 mb-3"><a class="post-title" href="post-details.html">Use apples to give your bakes caramel
+              <h3 class="h4 mb-3"><a class="post-title" href="{{ route('details') }}">Use apples to give your bakes caramel
                   and a moist texture</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
@@ -35,18 +35,18 @@
                 </li>
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to …</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
         </div>
         <div class="col-lg-4 mb-5">
-          <h2 class="h5 section-title">Trending Post</h2>
+          <h2 class="h5 section-title">Tin công nghệ</h2>
 
           <article class="card mb-4">
             <div class="card-body d-flex">
               <img class="card-img-sm" src="{{asset("assets")}}/images/post/post-3.jpg">
               <div class="ml-3">
-                <h4><a href="post-details.html" class="post-title">Advice From a Twenty Something</a></h4>
+                <h4><a href="{{ route('details') }}" class="post-title">Advice From a Twenty Something</a></h4>
                 <ul class="card-meta list-inline mb-0">
                   <li class="list-inline-item mb-0">
                     <i class="ti-calendar"></i>14 jan, 2020
@@ -63,7 +63,7 @@
             <div class="card-body d-flex">
               <img class="card-img-sm" src="{{asset("assets")}}/images/post/post-2.jpg">
               <div class="ml-3">
-                <h4><a href="post-details.html" class="post-title">The Design Files - Homes Minimalist</a></h4>
+                <h4><a href="{{ route('details') }}" class="post-title">The Design Files - Homes Minimalist</a></h4>
                 <ul class="card-meta list-inline mb-0">
                   <li class="list-inline-item mb-0">
                     <i class="ti-calendar"></i>14 jan, 2020
@@ -80,7 +80,7 @@
             <div class="card-body d-flex">
               <img class="card-img-sm" src="{{asset("assets")}}/images/post/post-4.jpg">
               <div class="ml-3">
-                <h4><a href="post-details.html" class="post-title">The Skinny Confidential</a></h4>
+                <h4><a href="{{ route('details') }}" class="post-title">The Skinny Confidential</a></h4>
                 <ul class="card-meta list-inline mb-0">
                   <li class="list-inline-item mb-0">
                     <i class="ti-calendar"></i>14 jan, 2020
@@ -95,14 +95,14 @@
         </div>
 
         <div class="col-lg-4 mb-5">
-          <h2 class="h5 section-title">Popular Post</h2>
+          <h2 class="h5 section-title">Tin nổi bật</h2>
 
           <article class="card">
             <div class="post-slider slider-sm">
               <img src="{{asset("assets")}}/images/post/post-5.jpg" class="card-img-top" alt="post-thumb">
             </div>
             <div class="card-body">
-              <h3 class="h4 mb-3"><a class="post-title" href="post-details.html">How To Make Cupcakes and Cashmere
+              <h3 class="h4 mb-3"><a class="post-title" href="{{ route('details') }}">How To Make Cupcakes and Cashmere
                   Recipe At Home</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
@@ -126,7 +126,7 @@
                 </li>
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to …</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
         </div>
@@ -135,7 +135,7 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
 
   <section class="section-sm">
     <div class="container">
@@ -181,7 +181,7 @@
               <img src="{{asset("assets")}}/images/post/post-3.jpg" class="card-img-top" alt="post-thumb">
             </div>
             <div class="card-body">
-              <h3 class="mb-3"><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h3>
+              <h3 class="mb-3"><a class="post-title" href="{{ route('details') }}">Advice From a Twenty Something</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
                   <a href="author-single.html" class="card-meta-author">
@@ -204,7 +204,7 @@
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
                 are reaching out to digital agencies, responding to the new possibilities available.</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
 
@@ -214,7 +214,7 @@
             </div>
 
             <div class="card-body">
-              <h3 class="mb-3"><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h3>
+              <h3 class="mb-3"><a class="post-title" href="{{ route('details') }}">Advice From a Twenty Something</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
                   <a href="author-single.html" class="card-meta-author">
@@ -238,13 +238,13 @@
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
                 are reaching out to digital agencies, responding to the new possibilities available.</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
 
           <article class="card mb-4">
             <div class="card-body">
-              <h3 class="mb-3"><a class="post-title" href="post-details.html">Cheerful Loving Couple Bakers Drinking
+              <h3 class="mb-3"><a class="post-title" href="{{ route('details') }}">Cheerful Loving Couple Bakers Drinking
                   Coffee</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
@@ -268,7 +268,7 @@
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
                 are reaching out to digital agencies, responding to the new possibilities available.</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
 
@@ -277,7 +277,7 @@
               <img src="{{asset("assets")}}/images/post/post-5.jpg" class="card-img-top" alt="post-thumb">
             </div>
             <div class="card-body">
-              <h3 class="mb-3"><a class="post-title" href="post-details.html">How To Make Cupcakes and Cashmere Recipe
+              <h3 class="mb-3"><a class="post-title" href="{{ route('details') }}">How To Make Cupcakes and Cashmere Recipe
                   At Home</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
@@ -302,7 +302,7 @@
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
                 are reaching out to digital agencies, responding to the new possibilities available.</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
 
@@ -312,7 +312,7 @@
               <img src="{{asset("assets")}}/images/post/post-9.jpg" class="card-img-top" alt="post-thumb">
             </div>
             <div class="card-body">
-              <h3 class="mb-3"><a class="post-title" href="post-details.html">How To Make Cupcakes and Cashmere Recipe
+              <h3 class="mb-3"><a class="post-title" href="{{ route('details') }}">How To Make Cupcakes and Cashmere Recipe
                   At Home</a></h3>
               <ul class="card-meta list-inline">
                 <li class="list-inline-item">
@@ -337,7 +337,7 @@
               </ul>
               <p>It’s no secret that the digital industry is booming. From exciting startups to global brands, companies
                 are reaching out to digital agencies, responding to the new possibilities available.</p>
-              <a href="post-details.html" class="btn btn-outline-primary">Read More</a>
+              <a href="{{ route('details') }}" class="btn btn-outline-primary">Read More</a>
             </div>
           </article>
 
@@ -502,7 +502,7 @@
               <div class="d-flex">
                 <img class="card-img-sm" src="{{asset("assets")}}/images/post/post-3.jpg">
                 <div class="ml-3">
-                  <h5><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h5>
+                  <h5><a class="post-title" href="{{ route('details') }}">Advice From a Twenty Something</a></h5>
                   <ul class="card-meta list-inline mb-0">
                     <li class="list-inline-item mb-0">
                       <i class="ti-calendar"></i>14 jan, 2020
@@ -516,7 +516,7 @@
               <div class="d-flex">
                 <img class="card-img-sm" src="{{asset("assets")}}/images/post/post-7.jpg">
                 <div class="ml-3">
-                  <h5><a class="post-title" href="post-details.html">Advice From a Twenty Something</a></h5>
+                  <h5><a class="post-title" href="{{ route('details') }}">Advice From a Twenty Something</a></h5>
                   <ul class="card-meta list-inline mb-0">
                     <li class="list-inline-item mb-0">
                       <i class="ti-calendar"></i>14 jan, 2020

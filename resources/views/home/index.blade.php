@@ -3,6 +3,7 @@
 
 <head>
     @include('home.layouts.head')
+    <title>Trang chủ</title>
 </head>
 
 <body>

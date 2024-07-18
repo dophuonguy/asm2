@@ -18,10 +18,15 @@ use App\Http\Controllers\UserController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+
+//layouts
 route::get('/', [HomeController::class,'index'])->name('index');
-Route::get('/contact',[HomeController::class, 'contact'])->name('contact');;
+Route::get('/contact',[HomeController::class, 'contact'])->name('contact');
+Route::get('/post-details',[HomeController::class, 'details'])->name('details');
+Route::get('/profile',[HomeController::class, 'profile'])->name('profile');
 
 
+// login
 route::get('/login',[UserController::class,'login'])->name('login');
 route::post('/login',[UserController::class,'postLogin']);
 route::get('/register',[UserController::class,'register'])->name('register');
