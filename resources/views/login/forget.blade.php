@@ -7,8 +7,8 @@
             <div class="col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-6 offset-xl-3 nm-st nm-st-md">
                 <form>
                     <div class="nm-mb-2 nm-mb-md-2">
-                        <h2>Password Reset</h2>
-                        <p>Enter your email address and we will send you reset code!</p>
+                        <h2>Đặt lại mật khẩu</h2>
+                        <p>Nhập địa chỉ email của bạn và chúng tôi sẽ gửi cho bạn mã đặt lại!</p>
                     </div>
                     
                     <div class="input-group nm-gp">
@@ -18,7 +18,7 @@
 
                     <div class="row nm-aic nm-mb-2">
                         <div class="col-sm-6 nm-mb-1 nm-mb-sm-0">
-                            <span>Have an account? </span><a class="nm-fs-1 nm-fw-bd underline" href="login.html">Log In</a>
+                            <span>Có một tài khoản? </span><a class="nm-fs-1 nm-fw-bd underline" href="login.html">Đăng nhập</a>
                         </div>
                         
                         <div class="col-sm-6 nm-sm-tr">
@@ -28,7 +28,7 @@
 
                     <div class="row nm-row-ct nm-tp-5">
                         <p>
-                            © 2020 All Rights Reserved. <a class="heading" href="../index.html" aria-label="Nimoy">NIMOY</a> created by ceosDesigns. <a class="heading" href="#" aria-label="Terms & Conditions">Terms & Conditions</a>, <a class="heading" href="#" aria-label="Privacy">Privacy Settings</a>.
+                            © 2020 Mọi quyền được bảo lưu. <a class="heading" href="../index.html" aria-label="Nimoy">READER</a> được tạo bởi ceosDesigns <a class="heading" href="#" aria-label="Terms & Conditions">Điều khoản & Điều kiện</a>, <a class="heading" href="#" aria-label="Privacy">Những thiết lập riêng tư</a>.
                         </p>
                     </div>
                 </form>

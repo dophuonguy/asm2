@@ -19,12 +19,12 @@
                     
                     <div class="input-group nm-gp">
                         <span class="nm-gp-pp"><i class="fas fa-user"></i></span>
-                        <input type="text" class="form-control" id="inputUsername" tabindex="1" placeholder="Username" name="name" required>
+                        <input type="text" class="form-control" id="inputUsername" tabindex="1" placeholder="Tên đăng nhập" name="name" required>
                     </div>
                     
                     <div class="input-group nm-gp">
                         <span class="nm-gp-pp"><i class="fas fa-lock"></i></span>
-                        <input type="password" class="form-control" id="inputPassword" tabindex="2" placeholder="Password" name="password" required>
+                        <input type="password" class="form-control" id="inputPassword" tabindex="2" placeholder="Mật khẩu" name="password" required>
                     </div>
     
                     <div class="row nm-aic nm-mb-2">
@@ -44,7 +44,7 @@
                     <div class="row nm-row-ct nm-tp-3">
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="rememberMe">
-                            <label class="form-check-label nm-check" for="rememberMe">Keep me logged in</label>
+                            <label class="form-check-label nm-check" for="rememberMe">Giữ tôi luôn đăng nhập</label>
                         </div>
                     </div>
     
@@ -54,7 +54,7 @@
     
                     <div class="row nm-row-ct nm-tp-5">
                         <p>
-                            © 2020 All Rights Reserved. <a class="heading" href="../index.html" aria-label="Nimoy">READER</a> created by ceosDesigns. <a class="heading" href="#" aria-label="Terms & Conditions">Terms & Conditions</a>, <a class="heading" href="#" aria-label="Privacy">Privacy Settings</a>.
+                            © 2020 Mọi quyền được bảo lưu. <a class="heading" href="../index.html" aria-label="Nimoy">READER</a> được tạo bởi ceosDesigns <a class="heading" href="#" aria-label="Terms & Conditions">Điều khoản & Điều kiện</a>, <a class="heading" href="#" aria-label="Privacy">Những thiết lập riêng tư</a>.
                         </p>
                     </div>
     </form>
