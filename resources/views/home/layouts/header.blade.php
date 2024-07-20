@@ -19,11 +19,11 @@
             </a>
             <div class="dropdown-menu">
 
-              <a class="dropdown-item" href="{{ route('details') }}">Chính trị - Xã Hội</a>
+              <a class="dropdown-item" href="">Chính trị - Xã Hội</a>
 
-              <a class="dropdown-item" href="{{ route('details') }}">Đời sống - Dân sinh</a>
+              <a class="dropdown-item" href="">Đời sống - Dân sinh</a>
 
-              <a class="dropdown-item" href="{{ route('details') }}">Nóng trên mạng</a>
+              <a class="dropdown-item" href="">Nóng trên mạng</a>
 
             </div>
           </li>
@@ -34,15 +34,15 @@
             </a>
             <div class="dropdown-menu">
 
-              <a class="dropdown-item" href="{{ route('details') }}">Doanh nhân</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Tài chính</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Bất động sản</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Khởi Nghiệp</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Doanh nghiệp</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Chứng khoán</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Tỉ giá</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Giá vàng</a>
-              <a class="dropdown-item" href="{{ route('details') }}">Tiền tiền tiền</a>
+              <a class="dropdown-item" href="">Doanh nhân</a>
+              <a class="dropdown-item" href="">Tài chính</a>
+              <a class="dropdown-item" href="">Bất động sản</a>
+              <a class="dropdown-item" href="">Khởi Nghiệp</a>
+              <a class="dropdown-item" href="">Doanh nghiệp</a>
+              <a class="dropdown-item" href="">Chứng khoán</a>
+              <a class="dropdown-item" href="">Tỉ giá</a>
+              <a class="dropdown-item" href="">Giá vàng</a>
+              <a class="dropdown-item" href="">Tiền tiền tiền</a>
 
             </div>
           </li>
@@ -56,8 +56,9 @@
               <input id="search-query" name="s" type="search" placeholder="Tìm kiếm tin tức">
             </form>
   
-            <button class="navbar-toggler border-0 order-1" type="button" data-toggle="collapse"
+            <button class="navbar-toggler border-0 order-1" name="keyword" type="button" data-toggle="collapse"
               data-target="#navigation">
+
               <i class="ti-menu"></i>
             </button>
           </div>
@@ -75,10 +76,10 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="{{ route('logout') }}">Đăng xuất</a>
-              <a class="dropdown-item" href="{{ route('profile') }}">Thông tin cá nhân</a>
+              <a class="dropdown-item" href="{{ route('profile') }}">Thông tin cá nhân</a>`
             </div>
             @else
-            <a class="nav-link" data-toggle="dropdown" href="#" style="">
+            <a class="nav-link" data-toggle="dropdown" href="#" >
               <i class="fa-solid fa-user fa-xl"></i>
             </a>
             <div class="dropdown-menu">

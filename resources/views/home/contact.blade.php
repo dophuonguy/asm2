@@ -16,11 +16,13 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-9 mx-auto">
-          <h1 class="mb-4">Contact Us</h1>
+          <h1 class="mb-4">
+            Phản hồi 
+          </h1>
           <ul class="list-inline">
             <li class="list-inline-item"><a class="text-default" href="">Home
                 &nbsp; &nbsp; /</a></li>
-            <li class="list-inline-item text-primary">Contact Us</li>
+            <li class="list-inline-item text-primary">Phản hồi</li>
           </ul>
         </div>
       </div>
@@ -79,28 +81,28 @@
         <div class="col-lg-8 mx-auto">
           
           <div class="content mb-5">
-            <h2 id="we-would-love-to-hear-from-you">We would Love To Hear From You&hellip;.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit massa vitae felis augue. In venenatis scelerisque accumsan egestas mattis. Massa feugiat in sem pellentesque.</p>
+            <h2 id="we-would-love-to-hear-from-you">Chúng tôi rất mong nhận được hồi âm từ bạn&hellip;.</h2>
+            <p>Khách hàng rất quan trọng, khách hàng sẽ được khách hàng theo đuổi. Anh ta muốn quảng cáo khối lượng cuộc sống của cò súng. Trong lớp sô cô la độc hại, cần có bất động sản. Massa feugiat có vẻ rất nhã nhặn.</p>
           </div>
           
           <form method="POST" action="#">
             <div class="form-group">
-              <label for="name">Your Name (Required)</label>
+              <label for="name">Tên của bạn (bắt buộc)</label>
               <input type="text" name="name" id="name" class="form-control" placeholder="John Doe" required>
             </div>
             <div class="form-group">
-              <label for="email">Your Email Address (Required)</label>
+              <label for="email">Địa chỉ Email của bạn (Bắt buộc)</label>
               <input type="email" name="email" id="email" class="form-control" placeholder="johndoe@gmail.com" required>
             </div>
             <div class="form-group">
-              <label for="email">Reason For Contact</label>
+              <label for="email">Lý do liên hệ</label>
               <input type="email" name="email" id="email" class="form-control" placeholder="Advertising">
             </div>
             <div class="form-group">
-              <label for="message">Your Message Here</label>
-              <textarea name="message" id="message" class="form-control" placeholder="Lorem ipsum dolor sit amet..."></textarea>
+              <label for="message">Tin nhắn của bạn ở đây</label>
+              <textarea name="message" id="message" class="form-control" placeholder="Khách hàng rất vui..."></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Send Now</button>
+            <button type="submit" class="btn btn-primary">Gửi ngay bây giờ</button>
           </form>
         </div>
       </div>

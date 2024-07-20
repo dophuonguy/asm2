@@ -14,7 +14,7 @@
   <!-- /navigation -->
 
   <!-- start of banner -->
-  <div class="">
+  <div class="banner text-center">
       @include('home.layouts.banner')
   </div>
   <!-- end of banner -->

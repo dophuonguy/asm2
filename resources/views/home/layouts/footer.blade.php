@@ -1,7 +1,7 @@
 
 
   <div class="instafeed text-center mb-5">
-    <h2 class="h3 mb-4">INSTAGRAM POST</h2>
+    <h2 class="h3 mb-4">Bài viết INSTAGRAM </h2>
 
     <div class="instagram-slider">
       <div class="instagram-post"><img src="{{asset("assets")}}/images/instagram/1.jpg"></div>
@@ -21,8 +21,8 @@
     <div class="row align-items-center">
       <div class="col-md-5 text-center text-md-left mb-4">
         <ul class="list-inline footer-list mb-0">
-          <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
-          <li class="list-inline-item"><a href="terms-conditions.html">Terms Conditions</a></li>
+          <li class="list-inline-item"><a href="privacy-policy.html">Chính sách bảo mật</a></li>
+          <li class="list-inline-item"><a href="terms-conditions.html">Các điều khoản và điều kiện</a></li>
         </ul>
       </div>
       <div class="col-md-2 text-center mb-4">
